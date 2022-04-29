@@ -1,1 +1,2 @@
-DCU Computer Science code for assignments and other projects
+# Computer Science
+DCU Computer Science code for assignments and other projects.
