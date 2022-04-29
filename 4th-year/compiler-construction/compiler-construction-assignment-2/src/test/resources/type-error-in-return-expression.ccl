@@ -1,0 +1,9 @@
+boolean shouldReturnBoolean() {
+    const num:integer = 2;
+    return (num);
+}
+
+main
+{
+
+}

@@ -1,0 +1,7 @@
+main
+{
+    // should produce errors:
+    var number:integer;
+
+    number = 05;
+}

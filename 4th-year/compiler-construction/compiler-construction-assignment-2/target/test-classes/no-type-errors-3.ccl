@@ -1,0 +1,24 @@
+boolean isLessThan(a:integer, b:integer) {
+    var answer:boolean;
+    if(a < b) {
+        answer = true;
+    } else {
+        answer = false;
+    }
+    return (answer);
+}
+
+boolean print(num:boolean)
+{
+    return (num);
+}
+
+main
+{
+    const x:integer = 2;
+    const y:integer = 8;
+
+    var answer:boolean;
+    answer = isLessThan(x, y);
+    print(answer);
+}

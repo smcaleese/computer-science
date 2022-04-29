@@ -1,0 +1,136 @@
+[1646259128143] Warehouse started.
+[1646259128173] Added model A to warehouse.
+[1646259128674] Added model A to warehouse.
+[1646259129174] Added model B to warehouse.
+[1646259129675] Added model C to warehouse.
+[1646259130146] (0) Order 0 is a ModelC with color blue from dealership 2, assigned to production line 1
+[1646259130147] (0) Moving to robot 0, line 1
+[1646259130176] Added model C to warehouse.
+[1646259130247] Factory lines: OOOOO-XOOOO-OOOOO
+[1646259130248] (0) Robot 0, line 1 started working on car 0
+[1646259130646] (1) Order 1 is a ModelB with color green from dealership 0, assigned to production line 0
+[1646259130647] (1) Moving to robot 0, line 0
+[1646259130676] Added model B to warehouse.
+[1646259130748] Factory lines: XOOOO-XOOOO-OOOOO
+[1646259130748] (1) Robot 0, line 0 started working on car 1
+[1646259130748] (0) Robot 0, line 1 finished working on car 0
+[1646259130749] (0) Moving to robot 1, line 1
+[1646259130849] (1) Robot 0, line 0 finished working on car 1
+[1646259130849] (1) Moving to robot 1, line 0
+[1646259130850] Factory lines: XXOOO-OXOOO-OOOOO
+[1646259130850] (0) Robot 1, line 1 started working on car 0
+[1646259130950] Factory lines: OXOOO-OXOOO-OOOOO
+[1646259130950] (1) Robot 1, line 0 started working on car 1
+[1646259131177] Warehouse full.
+[1646259131351] (0) Robot 1, line 1 finished working on car 0
+[1646259131351] (0) Moving to robot 2, line 1
+[1646259131452] Factory lines: OXOOO-OOXOO-OOOOO
+[1646259131452] (0) Robot 2, line 1 started working on car 0
+[1646259131647] Added model C to warehouse.
+[1646259131647] (2) Order 2 is a ModelB with color blue from dealership 1, assigned to production line 0
+[1646259131648] (2) Moving to robot 0, line 0
+[1646259131749] Factory lines: XXOOO-OOXOO-OOOOO
+[1646259131749] (2) Robot 0, line 0 started working on car 2
+[1646259131850] (2) Robot 0, line 0 finished working on car 2
+[1646259131850] (2) Waiting for robot 1, line 0
+[1646259131953] (0) Robot 2, line 1 finished working on car 0
+[1646259131953] (0) Moving to robot 3, line 1
+[1646259132054] Factory lines: XXOOO-OOOXO-OOOOO
+[1646259132054] (0) Robot 3, line 1 started working on car 0
+[1646259132147] Warehouse full.
+[1646259132554] (0) Robot 3, line 1 finished working on car 0
+[1646259132555] (0) Moving to robot 4, line 1
+[1646259132647] Added model B to warehouse.
+[1646259132648] (3) Order 3 is a ModelC with color green from dealership 1, assigned to production line 1
+[1646259132648] (3) Moving to robot 0, line 1
+[1646259132655] Factory lines: XXOOO-XOOOX-OOOOO
+[1646259132656] (0) Robot 4, line 1 started working on car 0
+[1646259132749] Factory lines: XXOOO-XOOOX-OOOOO
+[1646259132749] (3) Robot 0, line 1 started working on car 3
+[1646259133148] Added model C to warehouse.
+[1646259133148] (5) Last order received. Dealerships stopping. 
+
+[1646259133148] (4) Order 4 is a ModelB with color green from dealership 1, assigned to production line 1
+[1646259133149] (4) Waiting for robot 0, line 1
+[1646259133156] (0) Robot 4, line 1 finished working on car 0
+[1646259133156] (0) Finished processing car 0
+[1646259133157] (0) Added car 0 to truck 2, capacity 1/3
+[1646259133250] (3) Robot 0, line 1 finished working on car 3
+[1646259133250] (3) Moving to robot 1, line 1
+[1646259133351] Factory lines: XXOOO-OXOOO-OOOOO
+[1646259133351] (3) Robot 1, line 1 started working on car 3
+[1646259133351] (4) Moving to robot 0, line 1
+[1646259133452] Factory lines: XXOOO-XXOOO-OOOOO
+[1646259133452] (4) Robot 0, line 1 started working on car 4
+[1646259133552] (4) Robot 0, line 1 finished working on car 4
+[1646259133553] (4) Waiting for robot 1, line 1
+[1646259133852] (3) Robot 1, line 1 finished working on car 3
+[1646259133852] (3) Moving to robot 2, line 1
+[1646259133952] (4) Moving to robot 1, line 1
+[1646259133952] Factory lines: XXOOO-XXXOO-OOOOO
+[1646259133953] (3) Robot 2, line 1 started working on car 3
+[1646259134053] Factory lines: XXOOO-OXXOO-OOOOO
+[1646259134053] (4) Robot 1, line 1 started working on car 4
+[1646259134453] (3) Robot 2, line 1 finished working on car 3
+[1646259134453] (3) Moving to robot 3, line 1
+[1646259134554] Factory lines: XXOOO-OXOXO-OOOOO
+[1646259134554] (3) Robot 3, line 1 started working on car 3
+[1646259134951] (1) Robot 1, line 0 finished working on car 1
+[1646259134951] (1) Moving to robot 2, line 0
+[1646259135052] (2) Moving to robot 1, line 0
+[1646259135052] Factory lines: XOXOO-OXOXO-OOOOO
+[1646259135052] (1) Robot 2, line 0 started working on car 1
+[1646259135054] (3) Robot 3, line 1 finished working on car 3
+[1646259135055] (3) Moving to robot 4, line 1
+[1646259135152] Factory lines: OXXOO-OXOXX-OOOOO
+[1646259135152] (2) Robot 1, line 0 started working on car 2
+[1646259135152] (1) Robot 2, line 0 finished working on car 1
+[1646259135153] (1) Moving to robot 3, line 0
+[1646259135155] Factory lines: OXXXO-OXOOX-OOOOO
+[1646259135155] (3) Robot 4, line 1 started working on car 3
+[1646259135253] Factory lines: OXOXO-OXOOX-OOOOO
+[1646259135253] (1) Robot 3, line 0 started working on car 1
+[1646259135353] (1) Robot 3, line 0 finished working on car 1
+[1646259135354] (1) Moving to robot 4, line 0
+[1646259135454] Factory lines: OXOOX-OXOOX-OOOOO
+[1646259135454] (1) Robot 4, line 0 started working on car 1
+[1646259135554] (1) Robot 4, line 0 finished working on car 1
+[1646259135555] (1) Finished processing car 1
+[1646259135555] (1) Added car 1 to truck 0, capacity 1/3
+[1646259135655] (3) Robot 4, line 1 finished working on car 3
+[1646259135655] (3) Finished processing car 3
+[1646259135656] (3) Added car 3 to truck 1, capacity 1/3
+[1646259138053] (4) Robot 1, line 1 finished working on car 4
+[1646259138054] (4) Moving to robot 2, line 1
+[1646259138154] Factory lines: OXOOO-OOXOO-OOOOO
+[1646259138154] (4) Robot 2, line 1 started working on car 4
+[1646259138254] (4) Robot 2, line 1 finished working on car 4
+[1646259138255] (4) Moving to robot 3, line 1
+[1646259138355] Factory lines: OXOOO-OOOXO-OOOOO
+[1646259138355] (4) Robot 3, line 1 started working on car 4
+[1646259138456] (4) Robot 3, line 1 finished working on car 4
+[1646259138456] (4) Moving to robot 4, line 1
+[1646259138556] Factory lines: OXOOO-OOOOX-OOOOO
+[1646259138556] (4) Robot 4, line 1 started working on car 4
+[1646259138656] (4) Robot 4, line 1 finished working on car 4
+[1646259138657] (4) Finished processing car 4
+[1646259138657] (4) Added car 4 to truck 1, capacity 2/3
+[1646259139153] (2) Robot 1, line 0 finished working on car 2
+[1646259139153] (2) Moving to robot 2, line 0
+[1646259139253] Factory lines: OOXOO-OOOOO-OOOOO
+[1646259139253] (2) Robot 2, line 0 started working on car 2
+[1646259139353] (2) Robot 2, line 0 finished working on car 2
+[1646259139354] (2) Moving to robot 3, line 0
+[1646259139454] Factory lines: OOOXO-OOOOO-OOOOO
+[1646259139454] (2) Robot 3, line 0 started working on car 2
+[1646259139554] (2) Robot 3, line 0 finished working on car 2
+[1646259139554] (2) Moving to robot 4, line 0
+[1646259139655] Factory lines: OOOOX-OOOOO-OOOOO
+[1646259139655] (2) Robot 4, line 0 started working on car 2
+[1646259139755] (2) Robot 4, line 0 finished working on car 2
+[1646259139755] (2) Finished processing car 2
+[1646259139755] (2) Added car 2 to truck 1, capacity 3/3
+[1646259139755] (2) Truck 1 is full
+[1646259139755] (3) Delivering car 3 to dealership 1
+[1646259139755] (4) Delivering car 4 to dealership 1
+[1646259139756] (2) Delivering car 2 to dealership 1

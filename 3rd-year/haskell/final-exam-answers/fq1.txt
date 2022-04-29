@@ -1,0 +1,27 @@
+1.1)
+
+Vn = {S, A}
+Vt = {a, b}
+R = {
+    S -> aSb
+    S -> e
+}
+
+Example:
+S -> aSb -> aaSbb -> aabb
+
+1.2)
+
+Vn = {S, B}
+Vt = {a, b}
+R = {
+    S -> aaB | e
+    B -> aBbbb | e
+}
+
+Example:
+S -> aaB -> aaaBbbb -> aaaaBbbbbbb ->  aaaabbbbbb
+
+The grammars from both 1.1 and 1.2 are context-free grammars (type 2) because each rule is
+in the form of a single non-terminal on the left hand side and a mixture of terminals and
+non-terminals on the right hand side.

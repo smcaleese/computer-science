@@ -1,0 +1,15 @@
+main
+{
+    const i:integer = 0;
+
+    if i == 0
+    {
+        skip;
+    }
+    else
+    {
+        while (i < 10) {
+            i = i + 1;
+        }
+    }
+}

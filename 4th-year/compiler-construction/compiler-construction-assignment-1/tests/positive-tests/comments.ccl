@@ -1,0 +1,19 @@
+integer test_fn ()
+{
+    // single-line comment in function
+    /*
+    multi-line comment in function
+    */
+
+    return ();
+
+}
+main
+{
+    // single-line comment
+    /* multi-line comment on one line */
+    /*
+        multi-line comment on multiple lines 
+    */
+    /* nested /* multi-line */ comment */
+}

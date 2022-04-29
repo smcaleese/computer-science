@@ -1,0 +1,6 @@
+L(r) = {ab(ab)^t | t >= 0}
+r = ab(ab)*
+
+Derivation:
+S -> ab |
+S -> aA -> abS -> abaA -> ababS -> ababab

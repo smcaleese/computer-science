@@ -1,0 +1,14 @@
+integer subtract(x:integer, y:integer)
+{
+    var result:integer;
+    result = x - y;
+    return (result);
+}
+
+main
+{
+    var answer:integer;
+    const x:integer = 2;
+    const y:integer = 1;
+    subtract(x, y);
+}

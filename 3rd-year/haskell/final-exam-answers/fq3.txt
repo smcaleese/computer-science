@@ -1,0 +1,18 @@
+3.1)
+
+The PDA is deterministic because each state of the PDA only matches one rule. Since each state of the PDA has only
+one possible future state, the PDA never branches making it deterministic.
+
+3.2)
+
+The language is accepted by the PDA above.
+
+For example, this is how the PDA would run given the input string "abbba"
+
+Current String Symbol, State, Stack
+a, q0, empty
+b, q1, A
+b, q1, B
+b, q1, B
+a, q1, B
+end, q2, empty

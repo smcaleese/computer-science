@@ -1,0 +1,20 @@
+void do_nothing() {
+    return ();
+}
+
+integer add_numbers (x:integer, y:integer) {
+    const total:integer = x + y;
+
+    return (total);
+}
+
+main
+{
+    do_nothing();
+
+    const x:integer = 5;
+    const y:integer = 3;
+    var answer:integer;
+
+    answer = add_numbers(x, y);
+}

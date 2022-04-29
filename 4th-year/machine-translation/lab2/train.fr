@@ -1,0 +1,13 @@
+maison
+chat
+chien
+je parle au chien
+je parle au chat
+ils parlent au chat
+ils parlent au chien
+ils ont une maison
+j'ai une maison
+j'aime le chat
+j'aime la maison
+ils aiment le chien
+ils aiment le chat

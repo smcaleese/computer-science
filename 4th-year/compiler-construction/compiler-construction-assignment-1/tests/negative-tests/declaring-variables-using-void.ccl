@@ -1,0 +1,8 @@
+main
+{
+    // should produce errors: 
+
+    var number:void;
+
+    number = 5;
+}

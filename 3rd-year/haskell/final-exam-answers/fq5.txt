@@ -1,0 +1,10 @@
+5.1)
+
+L = {e | a^m b^n : n >= 0, m >= 0}
+
+5.2)
+
+The language is a type 2 or context-free
+language because the LHS is a single
+non-terminal and the RHS is a mixture
+of terminals and non-terminals.

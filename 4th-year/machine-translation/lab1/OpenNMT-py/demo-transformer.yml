@@ -1,0 +1,46 @@
+### These are the parameters we want to use for training the model:
+data:
+    corpus_1:
+        path_src: OpenNMT-py/data/src-train-bpe.txt
+        path_tgt: OpenNMT-py/data/tgt-train-bpe.txt
+    valid:
+        path_src: OpenNMT-py/data/src-val-bpe.txt
+        path_tgt: OpenNMT-py/data/tgt-val-bpe.txt
+
+# Vocabulary files that were just created
+src_vocab: OpenNMT-py/data/demo.vocab.src
+tgt_vocab: OpenNMT-py/data/demo.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: OpenNMT-py/model/model
+layers: 6 
+rnn_size: 512 
+word_vec_size: 512 
+transformer_ff: 2048 
+heads: 8 
+encoder_type: transformer 
+decoder_type: transformer 
+position_encoding:
+train_steps: 200000 
+max_generator_batches: 2 
+dropout: 0.1 
+batch_size: 4096 
+batch_type: tokens 
+normalization: tokens 
+accum_count: 2 
+optim: adam 
+adam_beta2: 0.998 
+decay_method: noam 
+warmup_steps: 8000 
+learning_rate: 2 
+max_grad_norm: 0 
+param_init: 0 
+param_init_glorot: 
+label_smoothing: 0.1
+save_checkpoint_steps: 1000
+train_steps: 1000
+valid_steps: 500

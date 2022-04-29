@@ -1,0 +1,5 @@
+MAIN
+{
+    var x:integer;
+    x = 5 + (1 + 2);
+}

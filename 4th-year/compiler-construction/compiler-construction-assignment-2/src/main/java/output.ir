@@ -1,0 +1,25 @@
+ADD:
+	y = y + 1
+	_condition1 = x < 10
+_WHILE1:
+	ifFalse _condition1 goto _END_WHILE1
+	x = x + 1
+	goto _WHILE1
+_END_WHILE1:
+	_condition2 = y < 0
+	if _condition2 goto _IF1
+	goto _ELSE1
+_IF1:
+	y = y + 1
+	goto _END_IF1
+_ELSE1:
+	x = x + 2
+_END_IF1:
+	return
+
+MAIN:
+	x = 1
+	y = 2
+	param x
+	param y
+	call add, 2

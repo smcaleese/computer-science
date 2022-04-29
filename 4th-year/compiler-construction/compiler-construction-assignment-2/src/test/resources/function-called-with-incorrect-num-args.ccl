@@ -1,0 +1,19 @@
+integer multiply(a:integer, b:integer) {
+    var total:integer;
+    var i:integer;
+    total = 0;
+    i = 0;
+    while(i < b) {
+        total = total + a;
+        i = i + 1;
+    }
+    return (total);
+}
+
+main
+{
+    var answer:integer;
+    const a:integer = 2;
+    const b:integer = 5;
+    answer = multiply(a);
+}

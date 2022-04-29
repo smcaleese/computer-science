@@ -1,0 +1,7 @@
+This machine is a non-deterministic finite automaton because there is a rule where the same from state
+and symbol leads to two different after states.
+When the state is q0 and the current instruction is a, the next state could
+be q0 or q1 making the machine non-deterministic.
+
+The regular expression that this machine accepts is:
+(b|a)*abb

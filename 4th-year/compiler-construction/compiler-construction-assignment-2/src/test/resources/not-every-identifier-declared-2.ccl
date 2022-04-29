@@ -1,0 +1,9 @@
+integer add(x:integer)
+{
+    return (x + y);
+}
+
+main
+{
+
+}

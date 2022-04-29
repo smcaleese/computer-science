@@ -1,0 +1,4 @@
+The rules in this example don't fit a type 3 or type 2 language because there
+are terminal symbols on the left hand side.
+
+Therefore, the rules describe a context-sensitive or type 1 language.

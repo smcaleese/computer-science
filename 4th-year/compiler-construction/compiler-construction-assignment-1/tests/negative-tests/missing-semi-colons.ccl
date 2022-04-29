@@ -1,0 +1,13 @@
+main
+{
+    const i:integer = 0
+
+    if i == 0
+    {
+        skip
+    }
+    else
+    {
+        i = i + 1
+    }
+}

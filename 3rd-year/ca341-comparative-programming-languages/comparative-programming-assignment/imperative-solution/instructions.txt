@@ -1,0 +1,16 @@
+Instructions:
+Available commands: add, remove and search
+Type information in this order and format: name, number, address
+Type phone numbers in this format: "0831234521"
+Example commands:
+"add" : "Stephen" : "0831234521" : "24 Oak Drive, Whitehall, Co. Dublin"
+"add" : "George" : "0865446141" : "106 Broad Avenue, Rathmines, Co. Dublin"
+Search by name or number:
+"search" : "Stephen"
+"search" : "0865446141"
+Remove entries using the name or number of the entry:
+"remove" : "Stephen"
+"remove" : "086544614"
+To list all existing entries in the database use the command "list":
+"list"
+To close the program, enter the letter 'q' and press enter

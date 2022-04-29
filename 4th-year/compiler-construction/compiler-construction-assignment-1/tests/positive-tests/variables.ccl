@@ -1,0 +1,14 @@
+const amount:integer=50;
+
+main
+{
+    var number:integer;
+    number = -123;
+
+    const isTrue:boolean=true;
+    const total1:integer=2+3;
+    const total2:integer = 5-4;
+
+    const isLessThan:boolean = (5 < 4);
+    const fiveOrFour:boolean = (5 || 4);
+}

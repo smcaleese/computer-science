@@ -1,0 +1,9 @@
+1.a) What type of languages are accepted by a PDA?
+
+A pushdown automaton accepts type 2 languages.
+
+1.b) How does this class of languages fit into the Chomsky hierarchy?
+
+There are three language classes in the Chomsky hierarchy from 0 to 3. Type 3 is a subset of type 2 which is a subset of 1
+and so on. Therefore type 2 languages are a superset of type 3 languages and a subset of type 1 and type 0
+languages.

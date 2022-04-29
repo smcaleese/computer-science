@@ -1,0 +1,33 @@
+4.1)
+
+(#, q0, a, a)
+(x, q1, a, b)
+(a, q1, b, b)
+(y, q2, b, c)
+(b, q2, c, c)
+(y, q3, b, z)
+(a, q3, y, b)
+(x, q3, a, y)
+(#, q3, x, a)
+
+(x, q0, a, y)
+(x, q1, y, b)
+(y, q1, b, z)
+(y, q2, z, c)
+(z, q2, c, #)
+(y, q3, z, z)
+(y, q3, y, z)
+(x, q3, y, y)
+(x, q3, x, y)
+
+(x, q0, y, y)
+(y, q0, y, z)
+(y, q0, z, z)
+(z, q0, z, #)
+(z, q0, #, #)
+
+This Turing machine accepts a language where the strings include at least one a, at least one b and at least one c.
+
+4.2)
+
+The time complexity of this Turing machine is approximately O(n^2).

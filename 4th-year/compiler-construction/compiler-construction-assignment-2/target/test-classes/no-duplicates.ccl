@@ -1,0 +1,27 @@
+boolean print(z:boolean) {
+    return (z);
+}
+
+boolean equal(a:integer, b:integer, c:integer)
+{
+    var answer:boolean;
+    if(a == b && b == c && a == c) {
+        answer = true;
+    } else {
+        answer = false;
+    }
+    return(answer);
+}
+
+main
+{
+    var a:integer;
+    var b:integer;
+    var c:integer;
+    var answer:boolean;
+    a = 2;
+    b = 2;
+    c = a - b;
+    answer = equal(a, b, c);
+    print(answer);
+}

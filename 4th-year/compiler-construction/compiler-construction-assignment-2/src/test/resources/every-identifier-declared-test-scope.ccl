@@ -1,0 +1,6 @@
+main
+{
+    var x:integer;
+    x = 2;
+    x = x + 1;
+}

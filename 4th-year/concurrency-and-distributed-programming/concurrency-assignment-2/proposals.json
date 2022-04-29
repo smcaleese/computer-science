@@ -1,0 +1,25 @@
+{
+    "proposals": [
+        {
+            "acronym": "rsks",
+            "title": "Risks associated with agile software development",
+            "description": "Risks that can arise when agile software development is used in a project",
+            "amount": 501709,
+            "days_left": 10
+        },
+        {
+            "acronym": "blse", 
+            "title": "Blending software engineering with remote working",
+            "description": "How software engineering and remote working can be blended",
+            "amount": 269700,
+            "days_left": 3
+        },
+        {
+            "acronym": "sdp",
+            "title": "Software development practices suited to all settings",
+            "description": "Settings and the software development practices that are most suitable for them", 
+            "amount": 360020,
+            "days_left": 15
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+No. This question is answered by the Halting Problem.
+
+Suppose that there is a turing machine H which either halts or doesn't halt.
+The halting problem is the question of whether another turing machine can know whether
+this turing machine will go on forever or not.
+
+A turing machine D has this purpose and is the opposite of H. If H halts,
+D does not halt and therefore produces no answer. If H does not halt, D halts.
+However, since H does not halt, D will never be able to halt either.
+This contradiction shows that it is impossible to build a Turing machine that can
+determine whether another turing machine halts or not.
+
+Either either case, the machine D does not halt and therefore is never capable of
+answering the question of whether H halts or not.

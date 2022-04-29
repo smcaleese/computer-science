@@ -1,0 +1,19 @@
+integer print(n:integer)
+{
+    // print
+    return (n);
+}
+
+main
+{
+    // addition
+    var x:integer;
+    var y:integer;
+    x = 1;
+    x = 1 + 2 + x;
+    x = 1 + 2 + 3 + 4;
+    // subtraction
+    y = 5 - 3 - 2 - 0;
+    print(x);
+    print(y);
+}

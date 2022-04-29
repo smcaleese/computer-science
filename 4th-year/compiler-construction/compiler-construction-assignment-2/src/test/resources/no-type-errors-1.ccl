@@ -1,0 +1,31 @@
+integer add(a:integer, b:integer)
+{
+    return (a + b);
+}
+
+integer multiply(a:integer, b:integer)
+{
+    // multiply by repeatedly adding
+    var total:integer;
+    var i:integer;
+    total = 0;
+    i = 0;
+    while(i < b) {
+        total = add(total, a);
+    }
+    return (total);
+}
+
+integer print(num:integer)
+{
+    return (num);
+}
+
+main
+{
+    var answer:integer;
+    const x:integer = 3;
+    const y:integer = 5;
+    answer = multiply(x, y);
+    print(answer);
+}

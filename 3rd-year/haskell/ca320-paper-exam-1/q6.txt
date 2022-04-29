@@ -1,0 +1,6 @@
+The input will be accepted by this FSA if it consists of:
+- 2b's and 0 c's
+- 1 b and 1 c
+- 2 c's and 0 b's
+
+Otherwise, the input will be rejected

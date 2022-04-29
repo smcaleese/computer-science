@@ -1,0 +1,68 @@
+:root {
+    --std-font-size: 1.5rem;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Part 1 */
+.greeting {
+    font-weight: normal;
+}
+
+/* Part 2 */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: var(--std-font-size);
+}
+
+.input {
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+.input:focus {
+    outline: 1px solid blue;
+}
+
+.button {
+    background-color: #29d45d;
+    border-radius: 0.5rem;
+    border: none;
+    height: 3rem;
+    width: 6rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.text {
+    font-size: var(--std-font-size);
+}
+
+/* Part 4 */
+#output {
+    margin: 0;
+    width: 90%;
+}

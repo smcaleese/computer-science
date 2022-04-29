@@ -1,0 +1,11 @@
+integer increment(n:integer)
+{
+    return (n + 1);
+}
+
+main
+{
+    var x:integer;
+    x = 1 + 2 + 3;
+    x = increment(x);
+}

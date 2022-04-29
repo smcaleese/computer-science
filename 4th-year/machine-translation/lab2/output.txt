@@ -1,0 +1,4 @@
+the la 0.625
+house la 0.375
+the maison 0.17241379310344826
+house maison 0.8275862068965517

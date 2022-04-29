@@ -1,0 +1,14 @@
+integer add(x:integer, y:integer, z:integer)
+{
+    return (x + y + z);
+}
+
+main
+{
+    const x:integer = 2;
+    const y:integer = 2;
+    const z:boolean = true;
+
+    var answer:integer;
+    answer = add(x, y, z);
+}

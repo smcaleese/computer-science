@@ -1,0 +1,7 @@
+R = {
+    S -> aS | bB
+    B -> aB | bS | b
+}
+
+Example:
+S -> aS -> aaS -> aabB -> aabbS -> aabbbB -> aabbbb

@@ -1,0 +1,8 @@
+main
+{
+    // should produce errors:
+    const isLessThan:boolean = (5 < 4);
+    const fiveOrFour:boolean = (5 || 4);
+
+    var number;
+}

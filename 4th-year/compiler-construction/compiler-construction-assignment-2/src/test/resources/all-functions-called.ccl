@@ -1,0 +1,9 @@
+void doNothing() {
+
+    return ();
+}
+
+main
+{
+    doNothing();
+}

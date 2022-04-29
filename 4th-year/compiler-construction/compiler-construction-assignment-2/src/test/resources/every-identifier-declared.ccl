@@ -1,0 +1,18 @@
+integer add(x:integer, y:integer)
+{
+    return (x + y);
+}
+
+integer printNum(x:integer) {
+    // print the number
+    return (x);
+}
+
+main
+{
+    const x:integer = 2;
+    const y:integer = 3;
+    var z:integer;
+    z = add(x, y);
+    printNum(z);
+}

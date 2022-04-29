@@ -1,0 +1,37 @@
+integer multiply(a:integer, b:integer) {
+    var total:integer;
+    var i:integer;
+    total = 0;
+    i = 0;
+    while(i < b) {
+        total = total + a;
+        i = i + 1;
+    }
+    return (total);
+}
+
+integer power(base:integer, exponent:integer) {
+    var total:integer;
+    var i:integer;
+    total = 1;
+    i = 0;
+    while(i < exponent) {
+        total = multiply(total, base);
+        i = i + 1;
+    }
+    return (total);
+}
+
+integer print(x:integer) {
+    // print the number
+    return (x);
+}
+
+main
+{
+    var answer:integer;
+    const base:integer = 2;
+    const exponent:integer = 3;
+    answer = power(base, exponent);
+    print(answer);
+}

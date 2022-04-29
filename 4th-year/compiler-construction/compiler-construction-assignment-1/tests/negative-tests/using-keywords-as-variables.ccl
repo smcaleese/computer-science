@@ -1,0 +1,7 @@
+main
+{
+    // should produce errors:
+    var return:integer;
+
+    return = 5;
+}

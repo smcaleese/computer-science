@@ -1,0 +1,13 @@
+integer add(x:integer)
+{
+    while(x == 10) {
+        x = x + 1;
+    }
+    return (x);
+}
+
+main
+{
+    const x:integer = 5;
+    add(x);
+}

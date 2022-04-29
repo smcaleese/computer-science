@@ -1,0 +1,141 @@
+Factory manager initialized
+Dealership started
+Dealership started
+Car carrier trailer for dealership 1 started 
+Factory started
+Warehouse started
+Car carrier trailer for dealership 0 started 
+Production lines started
+(16) Received order 0 for vehicle model B, colour green at time 12:49:49 => 1 orders remaining. 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:49 => 1 vehicles of model B in total 
+(33) Order 0 moving to production line 0 at time 12:49:49 => 0 orders and 0 vehicles of model B remaining 
+(14) Received order 1 for vehicle model A, colour blue at time 12:49:49 => 1 orders remaining. 
+Production lines state: 0XXXX-XXXXX-XXXXX
+(14) Received order 2 for vehicle model A, colour red at time 12:49:49 => 2 orders remaining. 
+(13) 1 vehicle of model A added to the warehouse at time 12:49:49 => 1 vehicles of model A in total 
+(16) Received order 3 for vehicle model C, colour blue at time 12:49:49 => 3 orders remaining. 
+Production lines state: X0XXX-XXXXX-XXXXX
+(14) Received order 4 for vehicle model B, colour blue at time 12:49:49 => 4 orders remaining. 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:49 => 1 vehicles of model C in total 
+Production lines state: XX0XX-XXXXX-XXXXX
+(33) Order 3 moving to production line 0 at time 12:49:49 => 3 orders and 0 vehicles of model C remaining 
+(14) Received order 5 for vehicle model B, colour blue at time 12:49:49 => 4 orders remaining. 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:49 => 1 vehicles of model B in total 
+Production lines state: 3XX0X-XXXXX-XXXXX
+Production lines state: 3XXX0-XXXXX-XXXXX
+(33) Order 4 moving to production line 0 at time 12:49:49 => 3 orders and 0 vehicles of model B remaining 
+(16) Received order 6 for vehicle model C, colour green at time 12:49:49 => 4 orders remaining. 
+(14) Received order 7 for vehicle model C, colour blue at time 12:49:49 => 5 orders remaining. 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:49 => 1 vehicles of model C in total 
+Production lines state: 43XX0-XXXXX-XXXXX
+Production lines state: 43XX0-XXXXX-XXXXX
+Production lines state: 4X3X0-XXXXX-XXXXX
+(33) Order 6 moving to production line 0 at time 12:49:49 => 4 orders and 0 vehicles of model C remaining 
+(17) Order 0 moving to car carrier trailer 1 at time 12:49:49 
+(16) Received order 8 for vehicle model C, colour red at time 12:49:49 => 5 orders remaining. 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:49 => 1 vehicles of model C in total 
+(14) Received order 9 for vehicle model B, colour green at time 12:49:49 => 6 orders remaining. 
+Final order in dealership 1 received 
+
+Production lines state: 643XX-XXXXX-XXXXX
+Production lines state: 64X3X-XXXXX-XXXXX
+Production lines state: 6X43X-XXXXX-XXXXX
+Production lines state: X643X-XXXXX-XXXXX
+Production lines state: X64X3-XXXXX-XXXXX
+(33) Order 7 moving to production line 0 at time 12:49:50 => 5 orders and 0 vehicles of model C remaining 
+(17) Order 3 moving to car carrier trailer 1 at time 12:49:50 
+(14) Received order 10 for vehicle model B, colour red at time 12:49:50 => 6 orders remaining. 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:50 => 1 vehicles of model C in total 
+Production lines state: 764XX-XXXXX-XXXXX
+Production lines state: 76X4X-XXXXX-XXXXX
+Production lines state: 7X64X-XXXXX-XXXXX
+Production lines state: X764X-XXXXX-XXXXX
+Production lines state: X76X4-XXXXX-XXXXX
+(33) Order 8 moving to production line 0 at time 12:49:50 => 5 orders and 0 vehicles of model C remaining 
+(14) Received order 11 for vehicle model C, colour green at time 12:49:50 => 6 orders remaining. 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:50 => 1 vehicles of model C in total 
+Production lines state: 876X4-XXXXX-XXXXX
+Production lines state: 87X64-XXXXX-XXXXX
+(15) Order 4 moving to car carrier trailer 0 at time 12:49:51 
+Production lines state: 8X76X-XXXXX-XXXXX
+(33) Order 11 moving to production line 0 at time 12:49:51 => 5 orders and 0 vehicles of model C remaining 
+(14) Received order 12 for vehicle model C, colour blue at time 12:49:51 => 6 orders remaining. 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:51 => 1 vehicles of model C in total 
+Final order in dealership 0 received 
+
+Production lines state: 11876X-XXXXX-XXXXX
+Production lines state: 1187X6-XXXXX-XXXXX
+Production lines state: 118X76-XXXXX-XXXXX
+Production lines state: 11X876-XXXXX-XXXXX
+Production lines state: 11X876-XXXXX-XXXXX
+(33) Order 12 moving to production line 0 at time 12:49:51 => 5 orders and 0 vehicles of model C remaining 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:51 => 1 vehicles of model B in total 
+(17) Order 6 moving to car carrier trailer 1 at time 12:49:51 
+(33) Order 5 moving to production line 1 at time 12:49:51 => 4 orders and 0 vehicles of model B remaining 
+Production lines state: 121187X-5XXXX-XXXXX
+Production lines state: 12118X7-5XXXX-XXXXX
+Production lines state: 12118X7-5XXXX-XXXXX
+(13) 1 vehicle of model B added to the warehouse at time 12:49:52 => 1 vehicles of model B in total 
+(15) Order 7 moving to car carrier trailer 0 at time 12:49:52 
+Production lines state: 12118XX-X5XXX-XXXXX
+(33) Order 9 moving to production line 1 at time 12:49:52 => 3 orders and 0 vehicles of model B remaining 
+Production lines state: 12118XX-9X5XX-XXXXX
+Production lines state: 1211X8X-9X5XX-XXXXX
+Production lines state: 1211XX8-9X5XX-XXXXX
+(13) 1 vehicle of model B added to the warehouse at time 12:49:52 => 1 vehicles of model B in total 
+Production lines state: 1211XX8-9X5XX-XXXXX
+Production lines state: 1211XX8-9XX5X-XXXXX
+(33) Order 10 moving to production line 1 at time 12:49:52 => 2 orders and 0 vehicles of model B remaining 
+(33) Order 1 moving to production line 2 at time 12:49:52 => 1 orders and 0 vehicles of model A remaining 
+(17) Order 8 moving to car carrier trailer 1 at time 12:49:52 
+(13) 1 vehicle of model A added to the warehouse at time 12:49:52 => 1 vehicles of model A in total 
+Production lines state: 1211XXX-109X5X-1XXXX
+Production lines state: 1211XXX-109XX5-1XXXX
+Production lines state: 1211XXX-10X9X5-1XXXX
+Production lines state: 1211XXX-X109X5-1XXXX
+Production lines state: 1211XXX-X109X5-X1XXX
+Production lines state: 12X11XX-X109X5-X1XXX
+Production lines state: 12XX11X-X109X5-X1XXX
+Production lines state: 12XXX11-X109X5-X1XXX
+(33) Order 2 moving to production line 1 at time 12:49:53 => 0 orders and 0 vehicles of model A remaining 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:53 => 1 vehicles of model B in total 
+Production lines state: 12XXX11-2109X5-X1XXX
+Production lines state: 12XXX11-2109X5-X1XXX
+Production lines state: 12XXX11-210X95-X1XXX
+Production lines state: 12XXX11-2X1095-X1XXX
+(15) Order 11 moving to car carrier trailer 0 at time 12:49:53 
+Production lines state: 12XXXX-2X1095-XX1XX
+(13) 1 vehicle of model A added to the warehouse at time 12:49:54 => 1 vehicles of model A in total 
+Production lines state: 12XXXX-X21095-XX1XX
+Production lines state: 12XXXX-X21095-XXX1X
+Production lines state: X12XXX-X21095-XXX1X
+Production lines state: XX12XX-X21095-XXX1X
+Production lines state: XXX12X-X21095-XXX1X
+Production lines state: XXXX12-X21095-XXX1X
+(15) Order 12 moving to car carrier trailer 0 at time 12:49:54 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:54 => 2 vehicles of model B in total 
+Production lines state: XXXXX-X21095-XXX1X
+(15) Order 5 moving to car carrier trailer 0 at time 12:49:54 
+(15) Car carrier trailer 0 departed at time 12:49:54 
+
+(13) 1 vehicle of model A added to the warehouse at time 12:49:54 => 2 vehicles of model A in total 
+Production lines state: XXXXX-X2109X-XXXX1
+Production lines state: XXXXX-X2109X-XXXX1
+Production lines state: XXXXX-X210X9-XXXX1
+(15) Order 9 moving to car carrier trailer 0 at time 12:49:55 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:55 => 1 vehicles of model C in total 
+Production lines state: XXXXX-X210XX-XXXX1
+Production lines state: XXXXX-X2X10X-XXXX1
+Production lines state: XXXXX-X2XX10-XXXX1
+(15) Order 10 moving to car carrier trailer 0 at time 12:49:55 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:55 => 3 vehicles of model B in total 
+Production lines state: XXXXX-X2XXX-XXXX1
+Production lines state: XXXXX-XX2XX-XXXX1
+Production lines state: XXXXX-XXX2X-XXXX1
+Production lines state: XXXXX-XXXX2-XXXX1
+(15) Order 2 moving to car carrier trailer 0 at time 12:49:55 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:55 => 4 vehicles of model B in total 
+(15) Order 1 moving to car carrier trailer 0 at time 12:49:55 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:55 => 2 vehicles of model C in total 
+(13) 1 vehicle of model C added to the warehouse at time 12:49:55 => 3 vehicles of model C in total 
+(13) 1 vehicle of model B added to the warehouse at time 12:49:56 => 5 vehicles of model B in total 
